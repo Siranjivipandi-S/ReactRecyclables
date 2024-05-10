@@ -1,0 +1,24 @@
+:root {
+  --backgroundcolor: "white";
+  --textcolor: "black";
+  --button-clr: "black";
+  --button-text: "white";
+}
+body {
+  background-color: white;
+}
+.theme-container .container {
+  height: 600px;
+  width: 100%;
+  background-color: var(--backgroundcolor);
+  color: var(--textcolor);
+  transition: 0.5s ease-in-out;
+}
+[datatheme="dark"] {
+  background-color: black;
+  color: white;
+}
+button {
+  background-color: white;
+  color: white;
+}

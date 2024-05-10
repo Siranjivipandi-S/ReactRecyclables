@@ -1,0 +1,8 @@
+body {
+  background-color: bisque;
+}
+.customcontainer {
+  background-color: aliceblue;
+  resize: both;
+  overflow: hidden;
+}

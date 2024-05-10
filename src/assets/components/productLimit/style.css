@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-container {
+  margin-top: 50px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.items {
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+p {
+  text-align: center;
+}
+button {
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: orange;
+}
+button:hover {
+  color: black;
+}

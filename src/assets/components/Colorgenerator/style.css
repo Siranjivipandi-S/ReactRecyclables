@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clr {
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  display: block;
+  background-color: lightgray;
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: pink;
+  color: white;
+}

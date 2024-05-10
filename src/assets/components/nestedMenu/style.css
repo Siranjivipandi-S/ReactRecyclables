@@ -1,0 +1,10 @@
+ul li {
+  text-decoration: none;
+}
+.pItem {
+  font-size: 30px;
+}
+.items {
+  display: flex;
+  gap: 10px;
+}
